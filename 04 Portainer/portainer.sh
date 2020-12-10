@@ -1,0 +1,1 @@
+sudo docker run -d -p 9000:9000 --name portainer --restart always -v /var/run/docker.sock:/var/run/docker.sock -v /home/renatogroffe/Desenvolvimento/Docker-MVPConf2020/Data/Volumes/Portainer/data:/data portainer/portainer
